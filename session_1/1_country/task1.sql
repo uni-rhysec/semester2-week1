@@ -12,4 +12,4 @@
 
 -- write your sql code here
 
-SELECT * from countries;
+SELECT Country,Continent,Population FROM countries WHERE Country LIKE '%a%a%a%';
